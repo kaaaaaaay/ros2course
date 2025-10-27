@@ -1,0 +1,16 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/lib/talker_node/server_node
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/package_run_dependencies/talker_node
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/parent_prefix_path/talker_node
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.sh
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.dsv
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.sh
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.dsv
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.bash
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.sh
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.zsh
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.dsv
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.dsv
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/packages/talker_node
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig.cmake
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig-version.cmake
+/root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.xml

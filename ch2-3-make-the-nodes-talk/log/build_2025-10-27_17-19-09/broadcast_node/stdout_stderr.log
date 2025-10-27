@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating broadcast_node.egg-info
+writing broadcast_node.egg-info/PKG-INFO
+writing dependency_links to broadcast_node.egg-info/dependency_links.txt
+writing entry points to broadcast_node.egg-info/entry_points.txt
+writing requirements to broadcast_node.egg-info/requires.txt
+writing top-level names to broadcast_node.egg-info/top_level.txt
+writing manifest file 'broadcast_node.egg-info/SOURCES.txt'
+reading manifest file 'broadcast_node.egg-info/SOURCES.txt'
+writing manifest file 'broadcast_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/lib/python3.12/site-packages/broadcast-node.egg-link (link to .)
+Installing broadcast script to /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/lib/broadcast_node
+
+Installed /root/ros2course/ch2-3-make-the-nodes-talk/build/broadcast_node
+running symlink_data
+creating /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/share/ament_index
+creating /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/share/ament_index/resource_index
+creating /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/share/ament_index/resource_index/packages
+symbolically linking /root/ros2course/ch2-3-make-the-nodes-talk/build/broadcast_node/resource/broadcast_node -> /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/share/ament_index/resource_index/packages
+symbolically linking /root/ros2course/ch2-3-make-the-nodes-talk/build/broadcast_node/package.xml -> /root/ros2course/ch2-3-make-the-nodes-talk/install/broadcast_node/share/broadcast_node

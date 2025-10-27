@@ -1,0 +1,2 @@
+[console_scripts]
+broadcast = broadcast_node.broadcast:main

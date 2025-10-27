@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/root/ros2course/ch2-2-defining-messages/build/example_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python:/opt/ros/jazzy /usr/bin/cmake /root/ros2course/ch2-2-defining-messages/example_messages -DCMAKE_INSTALL_PREFIX=/root/ros2course/ch2-2-defining-messages/install/example_messages
+[0.128s] -- The C compiler identification is GNU 13.3.0
+[0.200s] -- The CXX compiler identification is GNU 13.3.0
+[0.216s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.363s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.478s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.572s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.651s] -- Added test 'lint_cmake' to check CMake code style
+[0.653s] -- Added test 'xmllint' to check XML markup files
+[0.655s] -- Configuring done (0.6s)
+[0.659s] -- Generating done (0.0s)
+[0.661s] -- Build files have been written to: /root/ros2course/ch2-2-defining-messages/build/example_messages
+[0.664s] Invoked command in '/root/ros2course/ch2-2-defining-messages/build/example_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python:/opt/ros/jazzy /usr/bin/cmake /root/ros2course/ch2-2-defining-messages/example_messages -DCMAKE_INSTALL_PREFIX=/root/ros2course/ch2-2-defining-messages/install/example_messages
+[0.665s] Invoking command in '/root/ros2course/ch2-2-defining-messages/build/example_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2course/ch2-2-defining-messages/build/example_messages -- -j16 -l16
+[0.690s] Invoked command in '/root/ros2course/ch2-2-defining-messages/build/example_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2course/ch2-2-defining-messages/build/example_messages -- -j16 -l16
+[0.696s] Invoking command in '/root/ros2course/ch2-2-defining-messages/build/example_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2course/ch2-2-defining-messages/build/example_messages
+[0.701s] -- Install configuration: ""
+[0.701s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/ament_index/resource_index/package_run_dependencies/example_messages
+[0.702s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/ament_index/resource_index/parent_prefix_path/example_messages
+[0.702s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/ament_prefix_path.sh
+[0.702s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/ament_prefix_path.dsv
+[0.702s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/path.sh
+[0.703s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/path.dsv
+[0.703s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.bash
+[0.703s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.sh
+[0.703s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.zsh
+[0.704s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.dsv
+[0.704s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/package.dsv
+[0.704s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/ament_index/resource_index/packages/example_messages
+[0.705s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/cmake/example_messagesConfig.cmake
+[0.705s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/cmake/example_messagesConfig-version.cmake
+[0.705s] -- Installing: /root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/package.xml
+[0.706s] Invoked command in '/root/ros2course/ch2-2-defining-messages/build/example_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2course/ch2-2-defining-messages/build/example_messages

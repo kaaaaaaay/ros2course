@@ -1,0 +1,1 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_generator_cpp/msg_package/srv/detail/transmit__struct.hpp

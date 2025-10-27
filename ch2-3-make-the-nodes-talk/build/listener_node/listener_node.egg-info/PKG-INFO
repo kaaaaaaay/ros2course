@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: listener-node
+Version: 0.0.0
+Summary: Python client and listener nodes for Transmit service.
+Maintainer: paulwetzel
+Maintainer-email: pjw02@pm.me
+License: Apache-2.0

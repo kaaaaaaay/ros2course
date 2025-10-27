@@ -4,7 +4,7 @@
   <name>ros2-sample-package-python</name>
   <version>0.1.0</version>
   <description>This is some description</description>
-  <maintainer email="k.engelmann@campus.tu-berlin.de">Kay</maintainer>
+  <maintainer email="kay.engelmann@live.com">Kay</maintainer>
   <license>Apache-2.0</license>
 
   <test_depend>ament_copyright</test_depend>

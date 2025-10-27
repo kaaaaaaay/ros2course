@@ -1,0 +1,1 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/ament_cmake_core/msg_packageConfig.cmake

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msg_package__py",
+		"source" : "/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/msg_package__py"
+	}
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "msg_package_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/msg_package")

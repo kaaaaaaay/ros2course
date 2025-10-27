@@ -1,0 +1,1 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/build/talker_node/ament_cmake_environment_hooks/local_setup.sh

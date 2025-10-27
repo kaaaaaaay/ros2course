@@ -1,0 +1,1 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

@@ -1,0 +1,1 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_cmake/rosidl_cmake-extras.cmake

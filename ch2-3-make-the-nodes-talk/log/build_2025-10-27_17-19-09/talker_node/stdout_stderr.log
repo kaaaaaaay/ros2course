@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found msg_package: 0.0.0 (/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ros2course/ch2-3-make-the-nodes-talk/build/talker_node
+[ 50%] [32mBuilding CXX object CMakeFiles/server_node.dir/src/server_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable server_node[0m
+[100%] Built target server_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/lib/talker_node/server_node
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/package_run_dependencies/talker_node
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/parent_prefix_path/talker_node
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/environment/path.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.bash
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.zsh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/local_setup.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/ament_index/resource_index/packages/talker_node
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/cmake/talker_nodeConfig-version.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/talker_node/share/talker_node/package.xml

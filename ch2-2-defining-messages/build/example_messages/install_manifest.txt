@@ -1,0 +1,15 @@
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/ament_index/resource_index/package_run_dependencies/example_messages
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/ament_index/resource_index/parent_prefix_path/example_messages
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/ament_prefix_path.sh
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/ament_prefix_path.dsv
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/path.sh
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/environment/path.dsv
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.bash
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.sh
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.zsh
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/local_setup.dsv
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/package.dsv
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/ament_index/resource_index/packages/example_messages
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/cmake/example_messagesConfig.cmake
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/cmake/example_messagesConfig-version.cmake
+/root/ros2course/ch2-2-defining-messages/install/example_messages/share/example_messages/package.xml

@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Kay',
-    maintainer_email='k.engelmann@campus.tu-berlin.de',
+    maintainer_email='kay.engelmann@live.com',
     description='This is some description',
     license='Apache-2.0',
     extras_require={

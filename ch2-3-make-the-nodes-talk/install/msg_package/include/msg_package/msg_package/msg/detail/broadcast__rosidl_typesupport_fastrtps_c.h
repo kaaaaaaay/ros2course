@@ -1,0 +1,1 @@
+/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_typesupport_fastrtps_c/msg_package/msg/detail/broadcast__rosidl_typesupport_fastrtps_c.h

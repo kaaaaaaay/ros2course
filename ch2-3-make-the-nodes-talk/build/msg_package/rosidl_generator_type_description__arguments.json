@@ -1,0 +1,14 @@
+{
+  "package_name": "msg_package",
+  "output_dir": "/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_generator_type_description/msg_package",
+  "idl_tuples": [
+    "/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_adapter/msg_package:msg/Broadcast.idl",
+    "/root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package/rosidl_adapter/msg_package:srv/Transmit.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

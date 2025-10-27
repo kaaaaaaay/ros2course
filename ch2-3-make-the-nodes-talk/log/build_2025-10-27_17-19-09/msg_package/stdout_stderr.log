@@ -1,0 +1,230 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ros2course/ch2-3-make-the-nodes-talk/build/msg_package
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_symlink_msg_package
+[  2%] Built target msg_package__rosidl_generator_type_description
+running egg_info
+creating msg_package.egg-info
+[  4%] [34m[1mGenerating C code for ROS interfaces[0m
+writing msg_package.egg-info/PKG-INFO
+writing dependency_links to msg_package.egg-info/dependency_links.txt
+writing top-level names to msg_package.egg-info/top_level.txt
+writing manifest file 'msg_package.egg-info/SOURCES.txt'
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'msg_package.egg-info/SOURCES.txt'
+writing manifest file 'msg_package.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_msg_package_egg
+[  6%] Built target msg_package__cpp
+[ 11%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/msg/detail/broadcast__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/msg/detail/broadcast__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/srv/detail/transmit__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/msg/detail/broadcast__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/srv/detail/transmit__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_c.dir/rosidl_generator_c/msg_package/srv/detail/transmit__description.c.o[0m
+[ 22%] [32m[1mLinking C shared library libmsg_package__rosidl_generator_c.so[0m
+[ 22%] Built target msg_package__rosidl_generator_c
+[ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_package/srv/transmit__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_package/msg/broadcast__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_package/srv/transmit__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_package/msg/broadcast__type_support.cpp.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_package/srv/detail/transmit__type_support.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/msg_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_package/msg/detail/broadcast__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_package/srv/detail/transmit__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_package/msg/detail/broadcast__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_c.so[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_package/srv/detail/dds_fastrtps/transmit__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_package/msg/detail/dds_fastrtps/broadcast__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_package/msg/detail/broadcast__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/msg_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_package/srv/detail/transmit__type_support_c.cpp.o[0m
+[ 68%] [32m[1mLinking C shared library libmsg_package__rosidl_typesupport_introspection_c.so[0m
+[ 68%] Built target msg_package__rosidl_typesupport_c
+[ 68%] Built target msg_package__rosidl_typesupport_introspection_c
+[ 70%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_cpp.so[0m
+[ 72%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] Built target msg_package__rosidl_typesupport_cpp
+[ 75%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target msg_package__rosidl_typesupport_introspection_cpp
+[ 75%] Built target msg_package__rosidl_typesupport_fastrtps_c
+[ 77%] [32m[1mLinking CXX shared library libmsg_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 77%] Built target msg_package__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target msg_package
+[ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 79%] Built target msg_package__py
+[ 81%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_py.dir/rosidl_generator_py/msg_package/msg/_broadcast_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/msg_package__rosidl_generator_py.dir/rosidl_generator_py/msg_package/srv/_transmit_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library libmsg_package__rosidl_generator_py.so[0m
+[ 86%] Built target msg_package__rosidl_generator_py
+[ 93%] [32mBuilding C object CMakeFiles/msg_package_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/msg_package_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/msg_package_s__rosidl_typesupport_c.dir/rosidl_generator_py/msg_package/_msg_package_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_introspection_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/msg_package/msg_package_s__rosidl_typesupport_c.so[0m
+[100%] Built target msg_package_s__rosidl_typesupport_introspection_c
+[100%] Built target msg_package_s__rosidl_typesupport_fastrtps_c
+[100%] Built target msg_package_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/ament_index/resource_index/rosidl_interfaces/msg_package
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/msg/Broadcast.json
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/srv/Transmit.json
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/broadcast.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__functions.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__struct.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__type_support.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__functions.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__struct.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__type_support.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/transmit.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/library_path.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/library_path.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/broadcast.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__builder.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__struct.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__traits.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__type_support.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__builder.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__struct.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__traits.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__type_support.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/transmit.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/msg/detail/broadcast__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/include/msg_package/msg_package/srv/detail/transmit__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/pythonpath.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/pythonpath.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package-0.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package-0.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/__init__.py
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/_msg_package_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/_msg_package_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/_msg_package_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg/__init__.py
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg/_broadcast.py
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg/_broadcast_s.c
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.so
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/srv/__init__.py
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/srv/_transmit.py
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/srv/_transmit_s.c
+-- Up-to-date symlink: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.so
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/msg/Broadcast.idl
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/srv/Transmit.idl
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/msg/Broadcast.msg
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/srv/Transmit.srv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/ament_index/resource_index/package_run_dependencies/msg_package
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/ament_index/resource_index/parent_prefix_path/msg_package
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/path.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/environment/path.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/local_setup.bash
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/local_setup.sh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/local_setup.zsh
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/local_setup.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/package.dsv
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/ament_index/resource_index/packages/msg_package
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_packageConfig.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_packageConfig-version.cmake
+-- Symlinking: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/package.xml
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_generator_c.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so" to ""
+Listing '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package'...
+Compiling '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/__init__.py'...
+Listing '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg'...
+Compiling '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg/__init__.py'...
+Compiling '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/msg/_broadcast.py'...
+Listing '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/srv'...
+Compiling '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/srv/__init__.py'...
+Compiling '/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/python3.12/site-packages/msg_package/srv/_transmit.py'...
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/lib/libmsg_package__rosidl_generator_py.so" to ""
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_generator_cExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_generator_cppExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_generator_pyExport.cmake
+-- Installing: /root/ros2course/ch2-3-make-the-nodes-talk/install/msg_package/share/msg_package/cmake/export_msg_package__rosidl_generator_pyExport-noconfig.cmake

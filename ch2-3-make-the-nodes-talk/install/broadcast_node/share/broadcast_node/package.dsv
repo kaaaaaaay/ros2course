@@ -1,0 +1,9 @@
+source;share/broadcast_node/hook/pythonpath.ps1
+source;share/broadcast_node/hook/pythonpath.dsv
+source;share/broadcast_node/hook/pythonpath.sh
+source;share/broadcast_node/hook/ament_prefix_path.ps1
+source;share/broadcast_node/hook/ament_prefix_path.dsv
+source;share/broadcast_node/hook/ament_prefix_path.sh
+source;../../build/broadcast_node/share/broadcast_node/hook/pythonpath_develop.ps1
+source;../../build/broadcast_node/share/broadcast_node/hook/pythonpath_develop.dsv
+source;../../build/broadcast_node/share/broadcast_node/hook/pythonpath_develop.sh

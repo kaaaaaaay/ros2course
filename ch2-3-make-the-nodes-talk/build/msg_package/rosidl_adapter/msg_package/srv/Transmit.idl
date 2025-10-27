@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msg_package/srv/Transmit.srv
+// generated code does not contain a copyright notice
+
+
+module msg_package {
+  module srv {
+    struct Transmit_Request {
+      int64 value;
+
+      int64 value2;
+
+      int64 value3;
+    };
+    struct Transmit_Response {
+      int64 result;
+    };
+  };
+};
