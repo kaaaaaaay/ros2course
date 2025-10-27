@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='Kay',
     maintainer_email='k.engelmann@campus.tu-berlin.de',
-    description='TODO: Package description',
+    description='This is some description',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'test_our_node = ros2-sample-package-python.sample_node:main',
+            'test_our_node = ros2_sample_package_python.sample_node:main',
         ],
     },
 )

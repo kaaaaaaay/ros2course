@@ -2,6 +2,7 @@ running egg_info
 creating ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info
 writing ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info/PKG-INFO
 writing dependency_links to ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info/entry_points.txt
 writing requirements to ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info/requires.txt
 writing top-level names to ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info/top_level.txt
 writing manifest file '../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info/SOURCES.txt'
@@ -31,4 +32,5 @@ copying package.xml -> /root/ros2course/ch2-1-creating-nodes/ros2-node-test-work
 running install_egg_info
 Copying ../../build/ros2-sample-package-python/ros2_sample_package_python.egg-info to /root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python/lib/python3.12/site-packages/ros2_sample_package_python-0.1.0-py3.12.egg-info
 running install_scripts
+Installing test_our_node script to /root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/install/ros2-sample-package-python/lib/ros2-sample-package-python
 writing list of installed files to '/root/ros2course/ch2-1-creating-nodes/ros2-node-test-workspace/build/ros2-sample-package-python/install.log'

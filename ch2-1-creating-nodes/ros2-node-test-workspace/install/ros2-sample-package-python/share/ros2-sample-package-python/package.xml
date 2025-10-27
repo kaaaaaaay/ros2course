@@ -3,7 +3,7 @@
 <package format="3">
   <name>ros2-sample-package-python</name>
   <version>0.1.0</version>
-  <description>TODO: Package description</description>
+  <description>This is some description</description>
   <maintainer email="k.engelmann@campus.tu-berlin.de">Kay</maintainer>
   <license>Apache-2.0</license>
 
@@ -11,6 +11,8 @@
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
+
+  <exec_depend>rclpy</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>
