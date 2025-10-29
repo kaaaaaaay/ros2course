@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2course/ch2-2-defining-messages/build/example_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2course/ch2-2-defining-messages/build/example_messages -- -j16 -l16
+Invoked command in '/root/ros2course/ch2-2-defining-messages/build/example_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2course/ch2-2-defining-messages/build/example_messages -- -j16 -l16

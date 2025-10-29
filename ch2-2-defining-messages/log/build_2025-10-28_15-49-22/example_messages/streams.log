@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/root/ros2course/ch2-2-defining-messages/build/example_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2course/ch2-2-defining-messages/build/example_messages -- -j16 -l16
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.181s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.249s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.292s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.431s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.432s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.432s]   example_messages --arguments-file
+[0.432s]   /root/ros2course/ch2-2-defining-messages/build/example_messages/rosidl_adapter__arguments__example_messages.json
+[0.432s]   --output-dir
+[0.432s]   /root/ros2course/ch2-2-defining-messages/build/example_messages/rosidl_adapter/example_messages
+[0.432s]   --output-file
+[0.432s]   /root/ros2course/ch2-2-defining-messages/build/example_messages/rosidl_adapter/example_messages.idls)
+[0.432s]   returned error code 1:
+[0.432s] 
+[0.432s]   Error processing 'int64 ExampleNumberOne' of
+[0.432s]   'example_messages/ExampleNumbers': ''ExampleNumberOne' is an invalid field
+[0.432s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.432s] 
+[0.432s]   Traceback (most recent call last):
+[0.432s] 
+[0.432s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.432s]     File "<frozen runpy>", line 88, in _run_code
+[0.432s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.432s]       sys.exit(main())
+[0.433s]                ^^^^^^
+[0.433s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.433s]       abs_idl_file = convert_to_idl(
+[0.433s]                      ^^^^^^^^^^^^^^^
+[0.433s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.433s]       return convert_msg_to_idl(
+[0.433s]              ^^^^^^^^^^^^^^^^^^^
+[0.433s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.433s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.433s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.433s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.433s]       fields.append(Field(
+[0.433s]                     ^^^^^^
+[0.433s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[0.433s]       raise NameError(
+[0.433s] 
+[0.433s]   NameError: 'ExampleNumberOne' is an invalid field name.  It should have the
+[0.433s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.433s] 
+[0.433s] Call Stack (most recent call first):
+[0.433s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.433s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.433s] 
+[0.433s] [0m
+[0.433s] -- Configuring incomplete, errors occurred!
+[0.435s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.437s] Invoked command in '/root/ros2course/ch2-2-defining-messages/build/example_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2course/ch2-2-defining-messages/build/example_messages -- -j16 -l16

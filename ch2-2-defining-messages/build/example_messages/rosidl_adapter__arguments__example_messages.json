@@ -1,0 +1,7 @@
+{
+  "package_name": "example_messages",
+  "non_idl_tuples": [
+    "/root/ros2course/ch2-2-defining-messages/example_messages:src/msg/ExampleNumbers.msg",
+    "/root/ros2course/ch2-2-defining-messages/example_messages:src/srv/ExchangeNumber.srv"
+  ]
+}
